@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA Travel and Tours - Your Journey Begins Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="GA Travel and Tours Logo" class="logo-img">
+                <span class="logo-text">GA Travel and Tours</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#enquire">Enquire</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Journey Begins Here</h1>
+            <p>Discover amazing destinations with GA Travel and Tours</p>
+            <a href="#enquire" class="cta-button">Plan Your Trip</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>GA Travel and Tours has been creating unforgettable travel experiences with dedication and expertise. We specialize in crafting personalized journeys that match your dreams and budget.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>10,000+</h3>
+                        <p>Happy Travelers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Destinations</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">✈️</div>
+                    <h3>Flight Booking</h3>
+                    <p>Best deals on domestic and international flights with flexible booking options.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🏨</div>
+                    <h3>Hotel Reservations</h3>
+                    <p>Handpicked accommodations from budget stays to luxury resorts.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🗺️</div>
+                    <h3>Customized Tours</h3>
+                    <p>Tailor-made itineraries designed around your preferences and interests.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🎫</div>
+                    <h3>Visa Assistance</h3>
+                    <p>Complete visa support and documentation guidance for hassle-free travel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enquiry Section -->
+    <section id="enquire" class="enquire">
+        <div class="container">
+            <h2>Send Us an Enquiry</h2>
+            <form id="enquiryForm" class="enquiry-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Preferred Destination</label>
+                        <input type="text" id="destination" name="destination">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="travelDate">Travel Date</label>
+                        <input type="date" id="travelDate" name="travelDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="travelers">Number of Travelers</label>
+                        <input type="number" id="travelers" name="travelers" min="1">
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Enquiry</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="GA Travel and Tours" class="footer-logo">
+                    <h3>GA Travel and Tours</h3>
+                    <p>Making travel dreams come true</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@gatraveltours.com</p>
+                    <p>Phone: +91 123-456-7890</p>
+                    <p>Address: Your Address Here, City, India</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#enquire">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GA Travel and Tours. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
